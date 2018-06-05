@@ -1,0 +1,27 @@
+{
+  "name": "node-red-contrib-c8y-alarms",
+  "version": "0.0.1",
+  "description": "NodeRed node that integrates with cumulocity to fetch alarm data",
+  "main": "c8y-alarms.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/computerFriend/node-red-contrib-c8y-alarms.git"
+  },
+  "keywords": [
+    "cumulocity"
+  ],
+  "author": "Allie Southerland",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/computerFriend/node-red-contrib-c8y-alarms/issues"
+  },
+  "homepage": "https://github.com/computerFriend/node-red-contrib-c8y-alarms#readme",
+  "dependencies": {
+    "base-64": "^0.1.0",
+    "request": "^2.87.0",
+    "utf8": "^3.0.0"
+  }
+}
